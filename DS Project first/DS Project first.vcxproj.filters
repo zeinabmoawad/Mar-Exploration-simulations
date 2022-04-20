@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Actions">
+      <UniqueIdentifier>{5c0f58f1-1ca4-4ccc-ad2b-96f9d4adc789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{cfc574c2-f1a8-48d0-84da-b67ca9f894f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DS">
+      <UniqueIdentifier>{5f47ec08-8960-48da-8299-82d88666e9a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MarsStation">
+      <UniqueIdentifier>{57c20686-9abd-4804-99cf-a98a043bc570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MarsStation\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CancelEvent.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="FormulationEvent.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="PrompteEvent.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="AddCancelation.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="AddEvent.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="AddFormulation.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="AddPromotion.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="AddRover.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedPriorityQueue.h">
+      <Filter>DS</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedQueue.h">
+      <Filter>DS</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>DS</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityNode.h">
+      <Filter>DS</Filter>
+    </ClInclude>
+    <ClInclude Include="PriortiyQueueADT.h">
+      <Filter>DS</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueADT.h">
+      <Filter>DS</Filter>
+    </ClInclude>
+    <ClInclude Include="Defs.h">
+      <Filter>MarsStation</Filter>
+    </ClInclude>
+    <ClInclude Include="MarsStation.h">
+      <Filter>MarsStation</Filter>
+    </ClInclude>
+    <ClInclude Include="Mission.h">
+      <Filter>MarsStation</Filter>
+    </ClInclude>
+    <ClInclude Include="Rover.h">
+      <Filter>MarsStation</Filter>
+    </ClInclude>
+    <ClInclude Include="Assign.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Promote.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="DeAssign.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckUp.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="ListInterface.h">
+      <Filter>DS</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>DS</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>MarsStation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CancelEvent.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="FormulationEvent.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="PrompteEvent.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="AddCancelation.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="AddFormulation.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="AddPromotion.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="AddRover.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="MarsStation.cpp">
+      <Filter>MarsStation</Filter>
+    </ClCompile>
+    <ClCompile Include="Mission.cpp">
+      <Filter>MarsStation</Filter>
+    </ClCompile>
+    <ClCompile Include="Rover.cpp">
+      <Filter>MarsStation</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>MarsStation</Filter>
+    </ClCompile>
+    <ClCompile Include="Assign.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Promote.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="DeAssign.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckUp.cpp">
+      <Filter>Actions</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,3 +1,4 @@
 # DS_Project_Mars_Station
-good practice for using the right data structure.
+Technology: C++|Data structure | OPP.
+
 to understand project idea read the pdf which attached with repositories.
